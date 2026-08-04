@@ -1,0 +1,40 @@
+/* height
+div {
+    height : 100px;
+} */
+
+
+/* width
+div {
+    width : 200px;
+} */
+
+
+/* border
+div {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+
+    border shorthand
+    border : 5px solid black;
+
+    border sides
+    border-left-color:blue ;
+    border-left-style: dotted;
+
+    border radius
+    border-radius: 50%;
+} */
+
+
+/* padding
+div {
+    padding-left: 50px;
+} */
+
+
+/* margin
+div {
+    margin-bottom: 50px;
+} */

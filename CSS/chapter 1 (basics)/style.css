@@ -1,0 +1,43 @@
+/* Qs5: Change the font of the entire document to Georgia */
+body {
+    font-family: 'Georgia', serif;
+}
+
+/* Qs3: Align all the headings (h1, h3, h4) and the poem (p) to the center */
+h1, h3, h4, p {
+    text-align: center;
+}
+
+/* Qs2 & Qs4: Change poem color to red (Overriding Qs2's brown as per Qs4 instruction) */
+p {
+    color: #FF0000; /* Red hex code. (Note: Brown hex would be #A52A2A) */
+    line-height: 30px; /* Qs9: Set the poem's line-height to 30px */
+}
+
+/* Qs4: Change the poet's name to black */
+h3 {
+    color: black;
+}
+
+/* Qs6: Set Wikipedia link to green using RGB and remove its underline */
+h4 a {
+    color: rgb(0, 128, 0);
+    text-style: none; /* Clears default styling quirks if any */
+    text-decoration: none;
+}
+
+/* Qs7: Change button background color to white & text to blueviolet */
+button {
+    background-color: white;
+    color: blueviolet;
+}
+
+/* Qs8: Hex code for black color is #000000. Set textarea font color to black */
+textarea {
+    color: #000000;
+}
+
+/* Qs10: Underline only the word Ozymandias inside the poem */
+.poem-title {
+    text-decoration: underline;
+}

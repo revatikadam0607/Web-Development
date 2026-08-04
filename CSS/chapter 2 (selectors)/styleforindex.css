@@ -1,0 +1,59 @@
+/* Universal selector
+* {
+    font-family:'Courier New', Courier, monospace;
+} */
+
+
+/* Element selector
+h3 {
+    color:purple;
+} */
+
+
+/* Id selector
+#login {
+    color:red;
+} */
+
+
+/* class selector
+.follow {
+    color: aqua;
+} */
+
+
+/* descendant selector
+p a {
+    color: purple;
+} */
+
+
+/* attribute selectors
+input[type="text"] {
+    color: antiquewhite;
+} */
+
+
+/* adjacent/sibling combinators
+p + h3 {
+    text-decoration: underline;
+} */
+
+
+/* child combinators
+span > button {
+    color: brown;
+} */
+
+
+/* Pseudo class
+button:hover {
+    background-color: black;
+    color: white;
+} */
+
+
+/* pseudo element
+button::first-letter {
+    color: green;
+} */
